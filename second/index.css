@@ -1,0 +1,98 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 1200px;
+}
+
+.rowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderSolid {
+    border: solid;
+    width: 1000px;
+    height: 230px;
+    margin: 20px 10px 10px 10px;
+    background-color: #fff;
+}
+
+.borderDotted {
+    border: dotted 5px;
+    width: 1000px;
+    height: 230px;
+    margin: 20px 10px 10px 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderGray {
+    border: solid;
+    border-color: #c1c1c1;
+    border-width: 1px;
+    filter: drop-shadow(12px 12px 4px #c1c1c1);
+    width: 531px;
+    height: 320px;
+    margin: 20px 10px 10px 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: inline-block;
+}
+
+.skinnyRec {
+    background-color: #7600da;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 150px;
+    
+}
+
+.bigRec {
+    background-color: #1f7b24;
+    position: relative;
+    top: 10px;
+    left: 60px;
+    width: 400px;
+    height: 200px; 
+}
+
+.circle {
+    background-color: #76c3e6;
+    position: relative;
+    top: 10px;
+    left: 140px;
+    height: 195px;
+    width: 195px;
+    border-radius: 50%;
+}
+
+.largeRec {
+    background-color: rgb(255, 250, 195);
+    filter: drop-shadow(10px 10px 2px #373737);
+    width: 850px;
+    height: 150px;
+}
+
+.textContainer {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: rgb(0, 0, 108);
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 37px;
+}

@@ -1,0 +1,71 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 1200px;
+}
+
+.banner {
+    height: 125px;
+    background-color: #cfcfcf;
+    display: flex;
+    align-items: center;
+    
+}
+
+.b-one {
+    background-color: #3b7adb;
+}
+
+.b-two {
+    background-color: #47e0b5;
+}
+
+.b-three {
+    background-color: #ace874;
+}
+
+.b-four {
+    background-color: #f6e518;
+}
+
+.rowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borderGray {
+    width: 1000px;
+    height: 320px;
+    margin: 20px 10px 10px 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    display: block;
+}
+
+.skinnyRec {
+    background-color: #3b7adb;
+    margin: 0 0 0 30px;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.textContainer {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    color: #393939;
+    text-align: left;
+    letter-spacing: 0px;
+    line-height: 32px;
+}

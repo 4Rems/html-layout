@@ -1,0 +1,45 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.page {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.banner {
+    height: 168px;
+    background-color: #343434;
+}
+
+.grouped {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grouped-item {
+    flex: 1;
+}
+
+.side-one,
+.side-two {
+    background-color: #cfcfcf;
+    flex: initial;
+    width: 162px;
+    height: 836px;
+}
+
+.middle-top {
+    background-color: #ebebeb;
+    align-self: flex-start;
+    height: 736px;
+}
+
+.middle-bottom {
+    background-color: #1a1a1a;
+    align-self: flex-end;
+    height: 100px;
+}
